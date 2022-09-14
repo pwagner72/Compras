@@ -1,0 +1,16 @@
+# ** busca tambien subdirectorios o * como comidin para excluir  archivos
+# ! se usa antes de un * y es para indicar excepciòn. 
+secretos.txt
+misecreto.*
+#para directorios  1.-
+logs/   
+
+# archivos logs de la raiz
+*.log
+
+# excluir de regla anterior log2.log
+!log2.log
+
+#todos los archivos txt
+# **.txt
+
